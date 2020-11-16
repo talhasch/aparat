@@ -9,10 +9,12 @@ assert sys.version_info[0] == 3 and sys.version_info[1] >= 5, "aparat requires P
 setup(
     name='aparat',
     version='0.0.1',
+    py_modules=['aparat'],
     description='useful utility library for python',
+    author='Talha Buğra Bulut',
+    author_email='talhabugrabulut@gmail.com',
     long_description=open('README.md').read(),
     packages=find_packages(exclude=("venv",)),
-    py_modules=['aparat'],
     install_requires=[
         'python-dateutil==2.8.1',
         'pytz==2020.4',
