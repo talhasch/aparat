@@ -8,7 +8,7 @@ assert sys.version_info[0] == 3 and sys.version_info[1] >= 5, "aparat requires P
 
 setup(
     name='aparat',
-    version='0.0.2',
+    version='0.0.3',
     py_modules=['aparat'],
     description='useful utility library for python',
     author='Talha Buğra Bulut',
